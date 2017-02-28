@@ -1,0 +1,26 @@
+@import "_setup";
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: $base-text-align;
+  background-color: $black;
+}
+
+body, input, textarea, button, select {
+  font-family: $sans-serif-stack;
+  line-height: $base-line-height;
+  -webkit-font-smoothing: antialiased; // NOTE: Keep an eye on this
+}
+
+a,
+button,
+a:before,
+a:after,
+form input[type=submit] {
+  cursor: pointer;
+}
+a {
+  color: $brand;
+  text-decoration: none;
+}
